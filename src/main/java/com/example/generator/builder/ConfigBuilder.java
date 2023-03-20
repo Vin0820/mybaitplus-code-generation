@@ -474,7 +474,7 @@ public class ConfigBuilder {
         this.pathInfo = pathInfo;
         return this;
     }
-   
+
     public List<TableInfo> getTableInfoList() {
         return tableInfoList;
     }
