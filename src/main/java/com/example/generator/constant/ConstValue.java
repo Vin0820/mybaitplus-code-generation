@@ -58,19 +58,19 @@ public class ConstValue {
 
     // ************************ 模版配置后缀常量 *****************************
 
-    public static final String TEMPLATE_ENTITY = "/templates1/entity.java.ftl";
-    public static final String TEMPLATE_REQUEST = "/templates1/request.java.ftl";
-    public static final String TEMPLATE_REQUEST_ADD = "/templates1/requestAdd.java.ftl";
-    public static final String TEMPLATE_REQUEST_UPDATE = "/templates1/requestUpd.java.ftl";
-    public static final String TEMPLATE_REQUEST_SEARCH = "/templates1/requestSearch.java.ftl";
-    public static final String TEMPLATE_DTO = "/templates1/dto.java.ftl";
-    public static final String TEMPLATE_XML = "/templates1/mapper.xml.ftl";
-    public static final String TEMPLATE_DAO = "/templates1/dao.java.ftl";
-    public static final String TEMPLATE_SERVICE = "/templates1/service.java.ftl";
-    public static final String TEMPLATE_API = "/templates1/api.java.ftl";
-    public static final String TEMPLATE_PROVIDER = "/templates1/provider.java.ftl";
-    public static final String TEMPLATE_JUNIT = "/templates1/junit.java.ftl";
-    public static final String TEMPLATE_MENU_JSON = "/templates1/menu.json.ftl";
+    public static final String TEMPLATE_ENTITY = "/templates/entity.java.ftl";
+    public static final String TEMPLATE_REQUEST = "/templates/request.java.ftl";
+    public static final String TEMPLATE_REQUEST_ADD = "/templates/requestAdd.java.ftl";
+    public static final String TEMPLATE_REQUEST_UPDATE = "/templates/requestUpd.java.ftl";
+    public static final String TEMPLATE_REQUEST_SEARCH = "/templates/requestSearch.java.ftl";
+    public static final String TEMPLATE_DTO = "/templates/dto.java.ftl";
+    public static final String TEMPLATE_XML = "/templates/mapper.xml.ftl";
+    public static final String TEMPLATE_DAO = "/templates/dao.java.ftl";
+    public static final String TEMPLATE_SERVICE = "/templates/service.java.ftl";
+    public static final String TEMPLATE_API = "/templates/api.java.ftl";
+    public static final String TEMPLATE_PROVIDER = "/templates/provider.java.ftl";
+    public static final String TEMPLATE_JUNIT = "/templates/junit.java.ftl";
+    public static final String TEMPLATE_MENU_JSON = "/templates/menu.json.ftl";
 
     // ************************ 菜单配置常量 *****************************
 
