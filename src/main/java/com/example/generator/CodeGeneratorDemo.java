@@ -33,7 +33,8 @@ public class CodeGeneratorDemo {
     /**
      * 生成类文件存放位置
      */
-    private static final String classOutPath = projectPath + "/src/main/java";
+   // private static final String classOutPath = projectPath + "/src/main/java";
+    private static final String classOutPath = "D:\\soft\\新建文件夹";
     /**
      * 生成xxxMapper.xml文件存放位置
      */
@@ -52,14 +53,15 @@ public class CodeGeneratorDemo {
      * 指定表，支持正则批量生成
      */
     private static final String[] tableNames = {
-            "test_db"
+            //"test_db"
+            "activity"
     };
 
     /**
      * 指定表和实体名称，如果两者都填写，默认优先取上面数组
      */
     private static final Map<String, String> tableMap = ImmutableMap.<String, String>builder()
-            .put("test_db", "TestEntity")
+            .put("activity", "Activity")
             .build();
 
     public static void main(String[] args) {
@@ -93,10 +95,13 @@ public class CodeGeneratorDemo {
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
-        DataSourceConfig dsc = new DataSourceConfig().setUrl("jdbc:mysql://127.0.0.1:3306/yjgj_base")
-                .setDriverName("com.mysql.jdbc.Driver")
+        DataSourceConfig dsc = new DataSourceConfig()
+                //.setUrl("jdbc:mysql://175.178.148.160:3306/lottery&useSSL=false")
+                .setUrl("jdbc:mysql://175.178.148.160:3306/lottery?serverTimezone=GMT%2B8&useSSL=false")
+                //.setDriverName("com.mysql.jdbc.Driver")
+                .setDriverName("com.mysql.cj.jdbc.Driver")
                 .setUsername("root")
-                .setPassword("Hello@123456")
+                .setPassword("yang1998")
                 .setDbType(DbType.MYSQL)
                 .setTypeConvert(new MySqlTypeConvert(){
 

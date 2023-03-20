@@ -10,7 +10,7 @@ public class GlobalConfig {
     /**
      * 生成类文件存放位置
      */
-    private String outputDir;
+    private String outputDir="D:\\soft\\新建文件夹 (2)";
 
     /**
      * 生成xxxMapper.xml文件存放位置，默认会输出到META-INF/mapper

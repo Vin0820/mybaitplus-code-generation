@@ -130,12 +130,12 @@ public class TemplateEngine {
                     }
                 }
                 // Menu.json
-                if (StringUtils.isNotBlank(pathInfo.get(ConstValue.MENU_PATH))) {
-                    String menuJsonFile = pathInfo.get(ConstValue.MENU_PATH) + File.separator + ConstValue.TEMPLATE_JSON_SUFFIX;
-                    if (isCreate(menuJsonFile)) {
-                        writer(objectMap, ConstValue.TEMPLATE_MENU_JSON, menuJsonFile);
-                    }
-                }
+//                if (StringUtils.isNotBlank(pathInfo.get(ConstValue.MENU_PATH))) {
+//                    String menuJsonFile = pathInfo.get(ConstValue.MENU_PATH) + File.separator + ConstValue.TEMPLATE_JSON_SUFFIX;
+//                    if (isCreate(menuJsonFile)) {
+//                        writer(objectMap, ConstValue.TEMPLATE_MENU_JSON, menuJsonFile);
+//                    }
+//                }
                 // Dao.java
                 if (StringUtils.isNotBlank(tableInfo.getDaoName()) && StringUtils.isNotBlank(pathInfo.get(ConstValue.DAO_PATH))) {
                     String daoFile = String.format((pathInfo.get(ConstValue.DAO_PATH) + File.separator + ConstValue.TEMPLATE_JAVA_SUFFIX), tableInfo.getDaoName());
